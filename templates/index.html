@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Imagen aleatoria</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: white;">Imagen aleatoria</h1>
+    <img src="{{ url_for('static', filename=img_path) }}" alt="Imagen aleatoria">
+  </body>
+</html>
+
